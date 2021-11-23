@@ -10,7 +10,6 @@ import numpy as np
 from numpy import rad2deg
 
 import matplotlib
-matplotlib.use('TkAgg')  # set backend
 import matplotlib.animation as animation
 import matplotlib.pyplot as plt
 
@@ -23,7 +22,7 @@ def get_script_path(filename=__file__):
 def init_plot():
     'initialize plotting style'
 
-    matplotlib.use('TkAgg') # set backend
+    # matplotlib.use('TkAgg') # set backend
 
     parent = get_script_path()
     p = os.path.join(parent, 'bak_matplotlib.mlpstyle')
