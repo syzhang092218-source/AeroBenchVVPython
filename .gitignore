@@ -13,3 +13,4 @@ TAGS
 __pycache__
 *.pkl
 *.egg-info
+.idea
