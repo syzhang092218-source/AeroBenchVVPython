@@ -10,6 +10,7 @@ import numpy as np
 from numpy import rad2deg
 
 import matplotlib
+matplotlib.use('TkAgg')  # set backend
 import matplotlib.animation as animation
 import matplotlib.pyplot as plt
 
